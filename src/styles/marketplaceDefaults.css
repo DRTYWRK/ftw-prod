@@ -16,9 +16,9 @@
 :root {
   /* ================ Colors ================ */
 
-  --marketplaceColor: #93A856; /* hsl(260, 63%, 46%) */
+  --marketplaceColor: #A5C861; /* hsl(260, 63%, 46%) */
   --marketplaceColorLight: #E1F79E; /* hsl(260, 63%, 56%), +10L from marketplaceColor */
-  --marketplaceColorDark: #A5C861; /* hsl(260, 63%, 26%), -20L from marketplaceColor */
+  --marketplaceColorDark: #988780; /* hsl(260, 63%, 26%), -20L from marketplaceColor */
 
   /* Used with inline CSS SVGs */
   --marketplaceColorEncoded: %23a02cbf;
@@ -100,7 +100,7 @@
 
   --TopbarMobileMenu_topMargin: 96px;
 
-  --Topbar_logoHeight: 25px;
+  --Topbar_logoHeight: 45px;
   --CheckoutPage_logoHeight: 25px;
   --CheckoutPage_logoHeightDesktop: 27px;
 

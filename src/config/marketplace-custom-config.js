@@ -49,9 +49,12 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'men', label: 'Men' },
-        { key: 'women', label: 'Women' },
-        { key: 'kids', label: 'Kids' },
+        { key: 'dress', label: 'Dresses' },
+        { key: 'leggings', label: 'Leggings' },
+        { key: 'bra', label: 'Bras & Bralettes' },
+        { key: 'romper', label: 'Rompers & Onesies' },
+        { key: 'short', label: 'Shorts' },
+        { key: 't_shirt', label: 'Tops' },
       ],
     },
   },
@@ -73,15 +76,12 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: '4', label: '4' },
-        { key: '5', label: '5' },
-        { key: '6', label: '6' },
-        { key: '7', label: '7' },
-        { key: '8', label: '8' },
-        { key: '9', label: '9' },
-        { key: '10', label: '10' },
-        { key: '11', label: '11' },
-        { key: '12', label: '12' },
+        { key: 'x-small', label: 'x-small' },
+        { key: 'small', label: 'small' },
+        { key: 'medium', label: 'medium' },
+        { key: 'large', label: 'large' },
+        { key: 'x-large', label: 'x-large' },
+        { key: 'xx-large', label: 'xx-large' },
       ],
     },
   },
@@ -104,13 +104,13 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         { key: 'adidas', label: 'Adidas' },
-        { key: 'air_jordan', label: 'Air Jordan' },
-        { key: 'converse', label: 'Converse' },
+        { key: 'alo_yoga', label: 'Alo Yoga' },
+        { key: 'aviator_nation', label: 'Aviator Nation' },
         { key: 'new_balance', label: 'New Balance' },
         { key: 'nike', label: 'Nike' },
         { key: 'puma', label: 'Puma' },
-        { key: 'ultraboost', label: 'Ultraboost' },
-        { key: 'vans', label: 'Vans' },
+        { key: 'lululemon', label: 'Lululemon' },
+        { key: 'athleta', label: 'Athleta' },
         { key: 'yeezy', label: 'Yeezy' },
         { key: 'other', label: 'Other' },
       ],

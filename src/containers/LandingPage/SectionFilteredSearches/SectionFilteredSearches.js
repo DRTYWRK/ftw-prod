@@ -11,9 +11,9 @@ import css from './SectionFilteredSearches.module.css';
 
 // Update images by saving images to src/LandingPage/SeactionFilteredSearches/images directory.
 // If those images have been saved with the same name, no need to make changes to these imports.
-import imageForFilter1 from './images/imageForFilter1_648x448.jpg';
-import imageForFilter2 from './images/imageForFilter2_648x448.jpg';
-import imageForFilter3 from './images/imageForFilter3_648x448.jpg';
+import imageForFilter1 from './images/imageForFilter1_648x448.png';
+import imageForFilter2 from './images/imageForFilter2_648x448.png';
+import imageForFilter3 from './images/imageForFilter3_648x448.png';
 
 // Thumbnail image for the search "card"
 class ThumbnailImage extends Component {
@@ -66,19 +66,19 @@ const SectionFilteredSearches = props => {
       </div>
       <div className={css.filteredSearches}>
         <FilterLink
-          name="Nikes"
+          name="Alo Yoga"
           image={imageForFilter1}
-          link="http://localhost:3000/s?pub_brand=nike"
+          link="http://localhost:3000/s?pub_brand=alo-yoga"
         />
         <FilterLink
-          name="Yeezys"
+          name="Sweaty Betty"
           image={imageForFilter2}
-          link="http://localhost:3000/s?pub_brand=yeezy"
+          link="http://localhost:3000/s?pub_brand=sweaty-betty"
         />
         <FilterLink
-          name="Converses"
+          name="Gymshark"
           image={imageForFilter3}
-          link="http://localhost:3000/s?pub_brand=converse"
+          link="http://localhost:3000/s?pub_brand=gymshark"
         />
       </div>
     </div>

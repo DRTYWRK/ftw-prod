@@ -125,7 +125,7 @@ const Footer = props => {
                   <NamedLink
                     name="SearchPage"
                     to={{
-                      search: '?pub_brand=air_jordan',
+                      search: '?pub_brand=sweaty_betty',
                     }}
                     className={css.link}
                   >
@@ -136,7 +136,7 @@ const Footer = props => {
                   <NamedLink
                     name="SearchPage"
                     to={{
-                      search: '?pub_brand=converse',
+                      search: '?pub_brand=gymshark',
                     }}
                     className={css.link}
                   >
@@ -173,7 +173,7 @@ const Footer = props => {
                   <NamedLink
                     name="SearchPage"
                     to={{
-                      search: '?pub_brand=puma',
+                      search: '?pub_brand=athleta',
                     }}
                     className={css.link}
                   >
@@ -184,7 +184,7 @@ const Footer = props => {
                   <NamedLink
                     name="SearchPage"
                     to={{
-                      search: '?pub_brand=ultraboost',
+                      search: '?pub_brand=ultracor',
                     }}
                     className={css.link}
                   >
@@ -195,7 +195,7 @@ const Footer = props => {
                   <NamedLink
                     name="SearchPage"
                     to={{
-                      search: '?pub_brand=vans',
+                      search: '?pub_brand=lululemon',
                     }}
                     className={css.link}
                   >

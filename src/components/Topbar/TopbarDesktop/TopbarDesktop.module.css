@@ -30,11 +30,11 @@
   transition: var(--transitionStyleButton);
 
   flex-shrink: 0;
-  padding: 21px 24px 21px 24px;
+  padding: 0px 24px 0px 24px;
   height: 100%;
 
   @media (--viewportLarge) {
-    padding: 21px 36px 21px 36px;
+    padding: 0px 36px 0px 36px;
   }
 }
 .logoLink:hover {
@@ -45,7 +45,7 @@
 
 .logo {
   /* If height is increased, change link paddings accordingly */
-  height: 27px;
+  height: 80px;
 
   /* Good aspect ratio should be less than 160/27 (width/height) */
   /* NOTE: extremely wide logos, need special handling. */
