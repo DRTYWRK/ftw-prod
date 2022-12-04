@@ -53,7 +53,7 @@ const AboutPage = () => {
               When you sell your unwanted activewear you give them a second life. Not only are you doing something responsible for the planet but you'll find some amazing deals and discounts on brands you love like Alo Yoga, Lululemon and Nike. 
               </p>
 
-              <p>With DRTYWRK, we want to make sure you're transaction will go smoothly. And we hope you'll be so convinced that you'll soon start selling your no longer used activewear to make new buyers and the earth happy!</p>
+              <p>With DRTYWRK, we want to make sure you're experience goes smoothly. And we hope you'll be so convinced by the fabulous products you find that you'll soon start selling your no longer used activewear to make new buyers and the earth happy!</p>
 
               <h3 className={css.subtitle}>Do you have activewear to sell?</h3>
 
@@ -75,7 +75,7 @@ const AboutPage = () => {
               <p>
                 You can also checkout our{' '}
                 <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
-                <ExternalLink href={siteInstagramPage}>Instagram</ExternalLink>. Message us to be featured wearing your favorite activewear outfits.
+                <ExternalLink href={siteInstagramPage}>Instagram</ExternalLink>. DM or <a href="mailto:hello@drtywrk.com">email</a> us to be featured wearing your favorite activewear outfits &hearts;
               </p>
             </div>
           </div>
